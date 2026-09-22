@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 输出文件（大体积，不入仓）
+output/
+output_compare/
+output_model1/
+compressed/
+
+# 视频源文件（大体积，不入仓）
+视频源文件/
+
+# 测试和一次性脚本（含硬编码路径/业务数据）
+test_*.py
+extract_and_upload_frames.py
+
+# 临时文件
+_tmp_*.xml
+.env
+publish_log.txt
+PLAN.md
+
+# 系统文件
+.DS_Store
+Thumbs.db
